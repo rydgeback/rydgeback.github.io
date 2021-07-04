@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://example.com"
 
+# Currently active theme
+theme = "after-dark"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -12,5 +15,20 @@ build_search_index = false
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
+# Taxonomies for theme
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", feed = false},
+    {name = "tags", feed = false},
+]
+
+
 [extra]
 # Put all your custom variables here
+after_dark_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "https://google.com", name = "Google"},
+]
+
