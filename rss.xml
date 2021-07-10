@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+        <link>https://rydgeback.github.io/</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://rydgeback.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>My third post</title>
+            <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+            <link>https://rydgeback.github.io/posts/third/</link>
+            <guid>https://rydgeback.github.io/posts/third/</guid>
+            <description>&lt;p&gt;This is the third blog post, and the first written using this new theme. Alongside this, I also set the blog up on GitHub Pages, replacing my old Hugo based blog. Though the setup took some more time as I had to set up the GitHub Actions (something I&#x27;m not familiar with). I think the actual writing and posting process is much simpler now as I don&#x27;t need to run any scripts on the local repo. I simply write up my post, then switch to the terminal, &lt;code&gt;git add&lt;&#x2F;code&gt;, &lt;code&gt;git commit&lt;&#x2F;code&gt; and then &lt;code&gt;git push&lt;&#x2F;code&gt;. Maybe this can be automated in a script? That is something to be explored later. I am currently using the After Dark theme, but might switch over to some other theme later on.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>My second post</title>
+            <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+            <link>https://rydgeback.github.io/posts/second/</link>
+            <guid>https://rydgeback.github.io/posts/second/</guid>
+            <description>&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>My first post</title>
+            <pubDate>Wed, 03 Jun 2020 00:00:00 +0000</pubDate>
+            <link>https://rydgeback.github.io/posts/first/</link>
+            <guid>https://rydgeback.github.io/posts/first/</guid>
+            <description>&lt;p&gt;This is my first blog post.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>
