@@ -2,33 +2,37 @@
 base_url = "https://rydgeback.github.io/"
 
 # Currently active theme
-theme = "after-dark"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
-
-# Taxonomies for theme
+theme = "DeepThought"
+default_language = "en"
+highlight_code = true
+highlight_theme = "one-dark"
+generate_feed = true
+feed_filename = "rss.xml"
 taxonomies = [
-    # You can enable/disable RSS
-    {name = "categories", feed = false},
-    {name = "tags", feed = false},
+    { name = "categories", feed = true, paginate_by = 10 },
+    { name = "tags", fees = true, paginate_by = 10 },
 ]
+languages = []
+compile_sass = true
+build_search_index = true
+ignored_content = []
+extra_syntaxes = []
 
+[link_checker]
+skip_prefixes = ["http://[2001:db8::]/"]
+skip_anchor_prefixes = ["https://caniuse.com/"]
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [extra]
-# Put all your custom variables here
-after_dark_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "https://google.com", name = "Google"},
+navbar_items = [
+    { code = "en", nav_items = [
+        { url = "$BASE_URL/", name = "Home" },
+        { url = "$BASE_URL/posts", name = "Posts" },
+        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/categories", name = "Categories" },
+    ] },
 ]
-
