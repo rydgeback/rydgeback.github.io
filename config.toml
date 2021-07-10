@@ -36,3 +36,13 @@ navbar_items = [
         { url = "$BASE_URL/categories", name = "Categories" },
     ] },
 ]
+
+[extra.social]
+facebook = ""
+github = ""
+gitlab = ""
+keybase = ""
+linkedin = ""
+stackoverflow = ""
+email = "deepthought@gmail.com"
+twitter = ""
