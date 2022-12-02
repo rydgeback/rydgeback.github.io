@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://rydgeback.github.io//sitemap.xml

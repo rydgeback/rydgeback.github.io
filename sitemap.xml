@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://rydgeback.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/categories/</loc>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/</loc>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/first/</loc>
+        <lastmod>2020-06-03</lastmod>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/fourth/</loc>
+        <lastmod>2022-12-03</lastmod>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/second/</loc>
+        <lastmod>2021-06-03</lastmod>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/posts/third/</loc>
+        <lastmod>2021-06-04</lastmod>
+    </url>
+    <url>
+        <loc>https://rydgeback.github.io/tags/</loc>
+    </url>
+</urlset>
